@@ -119,9 +119,10 @@ class InstallShell extends AppShell {
 			));
 		
 		// Get .env ADMIN_USER, ADMIN_PASSWORD
-		$ADMIN_USER = $_ENV('ADMIN_USER');
-		$ADMIN_PASSWORD = $_ENV('ADMIN_PASSWORD');
-		$this->args = array_merge($this->args, [$ADMIN_USER, $ADMIN_PASSWORD]);
+		$this->args = array_merge($this->args, array(
+				$_ENV['ADMIN_USER'], 
+				$_ENV['ADMIN_PASSWORD']
+			));
 
 		$install['Install']['datasource'] = $this->_in(__d('croogo', 'DataSource'), array(
 			'Mysql',
