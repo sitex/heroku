@@ -3,20 +3,12 @@
 	"description": "Heroku installer Plugin for Croogo",
 	"type": "cakephp-plugin",
 	"keywords": ["cakephp","croogo","heroku"],
-	"homepage": "http://sitex.kz",
 	"license": "MIT",
 	"authors": [
 		{
-			"name": "Ivan Samorodov",
-			"email": "gsitex@gmail.com",
-			"homepage": "http://sitex.kz"
+			"name": "Sitex"
 		}
 	],
-	"support": {
-		"email": "gsitex@gmail.com",
-		"issues": "https://github.com/sitex/heroku/issues",
-		"source": "https://github.com/sitex/heroku"
-	},
 	"require": {
 		"php": ">=5.2.8",
 		"composer/installers": "*"
