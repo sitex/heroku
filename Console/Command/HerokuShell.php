@@ -7,9 +7,8 @@ App::uses('AppShell', 'Console/Command');
  *
  * @category Shell
  * @version  1.0
- * @author   Ivan Samorodov <gsitex@gmail.com>
+ * @author   Sitex
  * @license  http://www.opensource.org/licenses/mit-license.php The MIT License
- * @link     http://www.sitex.kz
  */
 class HerokuShell extends AppShell
 {
